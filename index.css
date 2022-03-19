@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body {
+  font-family: Calibri;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #255ab5;
+  color: #fff;
+}
+.nav-links a {
+  color: #fff;
+}
+/* LOGO */
+.logo {
+  
+  font-family: "Racing Sans One", cursive;
+  font-size: 30px;
+  color: #f00f0f;
+}
+
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+.menu li:hover {
+  background-color: #5f80b8;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+.menu li {
+  padding: 5px 14px;
+}
+/* DROPDOWN MENU */
+.services {
+  position: relative;
+}
+
+.part-1 {
+  background-color: #1e71ff;
+  width: 1440px;
+  height: auto;
+}
+.main-text {
+  font-family: "Racing Sans One";
+  font-size: 450%;
+  color: #fff;
+  float: left;
+  margin: 7% 0% 7% 7%;
+}
+.part-1 img {
+  float: right;
+  margin-right: 14%;
+  width: 750px;
+  height: 500px;
+  margin-bottom: 7%;
+  margin-left: 0;
+}
+.main-buttons {
+  border: 2px white;
+  font-family: "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  width: 150px;
+  height: 45px;
+  border-radius: 100px;
+  
+}
+.part-1 span {
+  font: 24px lighter;
+  font-family: "Sanchez", serif;
+  float: left;
+  color: #fff;
+}
+.Text-1 {
+  font-size: 45px;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2.5%;
+}
+.part-2p {
+  text-align: center;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+  margin-bottom: 0%;
+}
+.part-2 img {
+  width: 952px;
+  height: 732px;
+  margin-top: 0;
+  margin-bottom: 5%;
+}
+.part-3{
+  background-color: #D2E3FF;
+}
+.part-3-img-div{
+  width: 580px;
+  height: 547px;
+  margin-top: 7%;
+  margin-bottom: 2%;
+  margin-left: 8.5%;
+  float: left;
+  overflow-y: hidden;
+}
+.part-3-text-div-1{
+font-size: 60px;
+font-family: Roboto, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+line-height: 80px;
+float: right;
+margin-left: 0%;
+margin-right: 8.5%;
+margin-top:8% ;
+letter-spacing: 3%;
+
+}
+.part-3-text-div-1 span{
+  font-weight:100;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  font-size: 30px;
+  font-family:'Segoe UI', Roboto,'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer-text{
+  font-size: 17px;
+  font-family:Roboto, sans-serif;
+  font-weight: 50;
+  line-height: 40px;
+  letter-spacing: 3%;
+  
+}
+.footer-text span{
+  font-family: Roboto, sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+}
+small{
+  margin-left: 49%;
+
+}
